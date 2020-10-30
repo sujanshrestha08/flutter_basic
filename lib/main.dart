@@ -1,11 +1,11 @@
 import "package:flutter/material.dart";
 
-import './app_screen/first_screen.dart';
+import './app_screen/home.dart';
 
 void main() {
   runApp(MaterialApp(
     title: "Exploring UI Widgets",
-    home: FirstScreen(),
+    home: Home(),
     debugShowCheckedModeBanner: false,
   ));
 }
